@@ -1,0 +1,16 @@
+ 
+ .paginador-container{
+   display: flex;
+   flex-flow: row nowrap;
+   justify-content: center;
+
+   width: 100vw;
+   padding: 1rem;
+ }
+ 
+ .paginator-row{
+   list-style: none;
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 0.5rem;
+ }

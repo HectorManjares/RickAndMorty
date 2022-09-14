@@ -1,0 +1,13 @@
+@import url('./styles/App.css');
+@import url('./styles/CardsInfo.css');
+@import url('./styles/Search.css');
+@import url('./styles/RickAndMortyApp.css');
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}

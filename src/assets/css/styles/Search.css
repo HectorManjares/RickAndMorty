@@ -1,0 +1,88 @@
+
+.content-search{
+  background-image: url(../../Images/BgInfo.png);
+  background-size: contain;
+}
+
+.subTittle{
+  color: #fff;
+  z-index: 3;
+  margin-top: 25px;
+  font-size: 26px;
+
+}
+.lista-inport{
+  color: #fff;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+ }
+
+.lista-inport>li{
+  margin: 1rem;
+}
+
+.search__input{
+  min-width: 35%;
+  height: 2.2rem;
+  background-color: #423833;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: none;
+  outline: none;
+  border-radius: 15px ;
+  box-shadow: 1px 1px 5px #0b0c0b;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 35px;
+}
+
+.search__input:focus{
+  background-color: #3c3c4a;
+}
+
+.numberPage{
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  margin: 3px;
+  background-color: #fff;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  padding-top: 0.5rem;
+}
+
+.Paginator{
+  display: flex;
+    justify-content: center;
+    height: 85px;
+    padding: 10px;
+}
+
+.PaginatorBtn{
+  display: flex;
+  width: auto;
+  padding: 5px;
+  border: 2px solid #fff;
+  border-radius: 50px;
+}
+
+
+.Prev{
+  background-color: #fff;
+  width: 50px;
+  height: 52px;
+  border: 2px solid #555;
+  border-radius: 100px 0 0 100px;
+}
+
+.Next{
+  background-color: #fff;
+  width: 50px; 
+  height: 52px; 
+  border: 2px solid #555; 
+  border-radius: 0 100px 100px 0;
+}
+

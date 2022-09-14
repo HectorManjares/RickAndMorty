@@ -1,0 +1,72 @@
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.content-card{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1.5rem;
+    padding: 1.5rem;
+}
+
+.info{
+    position: relative;
+    z-index: 2;
+}
+
+.cardContent{
+    position: relative;
+    width: 100%;
+}
+
+.cardInfo{
+    width: 100%;
+    filter: grayscale(75%);
+}
+
+.cardInfo_total{
+ width: 70%;
+}
+
+.CharacterInfo{
+    width: 100%;
+    position: absolute;
+    top: 5px;
+    right: 64px;
+}
+
+.img-person{
+    width: 55%;
+    top: 15px;
+    position: relative;
+    z-index: -1;
+}
+
+.listaPersonajes{
+    position: relative;
+    list-style: none;
+    color: #ffff;
+    font-weight: bold;
+    margin-top: 37px;
+}
+
+.name{
+    position: relative;
+    top: -29px;
+    font-size: larger;
+}
+
+.status{
+    position: absolute;
+    /*-webkit-text-stroke: 1px black;*/
+    z-index: 1;
+    font-weight: bold;
+    font-size: large;
+    top: 4.5%;
+    right: 83.5%;
+    font-family: 'Bebas Neue', cursive;
+}
